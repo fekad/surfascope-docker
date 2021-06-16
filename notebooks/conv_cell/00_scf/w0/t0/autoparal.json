@@ -1,0 +1,105 @@
+{
+    "@class": "ParalHints",
+    "@module": "abipy.flowtk.tasks",
+    "confs": [
+        {
+            "efficiency": 0.961904762,
+            "mem_per_cpu": 0.0,
+            "mpi_ncpus": 4,
+            "omp_ncpus": 1,
+            "tot_ncpus": 4,
+            "vars": {
+                "bandpp": 1,
+                "npband": 1,
+                "npfft": 1,
+                "npimage": 1,
+                "npkpt": 4,
+                "npspinor": 1
+            }
+        },
+        {
+            "efficiency": 0.867660481,
+            "mem_per_cpu": 0.0,
+            "mpi_ncpus": 4,
+            "omp_ncpus": 1,
+            "tot_ncpus": 4,
+            "vars": {
+                "bandpp": 4,
+                "npband": 2,
+                "npfft": 1,
+                "npimage": 1,
+                "npkpt": 2,
+                "npspinor": 1
+            }
+        },
+        {
+            "efficiency": 0.840896767,
+            "mem_per_cpu": 0.0,
+            "mpi_ncpus": 4,
+            "omp_ncpus": 1,
+            "tot_ncpus": 4,
+            "vars": {
+                "bandpp": 2,
+                "npband": 2,
+                "npfft": 1,
+                "npimage": 1,
+                "npkpt": 2,
+                "npspinor": 1
+            }
+        },
+        {
+            "efficiency": 0.787702498,
+            "mem_per_cpu": 0.0,
+            "mpi_ncpus": 4,
+            "omp_ncpus": 1,
+            "tot_ncpus": 4,
+            "vars": {
+                "bandpp": 1,
+                "npband": 2,
+                "npfft": 1,
+                "npimage": 1,
+                "npkpt": 2,
+                "npspinor": 1
+            }
+        },
+        {
+            "efficiency": 0.759883783,
+            "mem_per_cpu": 0.0,
+            "mpi_ncpus": 4,
+            "omp_ncpus": 1,
+            "tot_ncpus": 4,
+            "vars": {
+                "bandpp": 8,
+                "npband": 1,
+                "npfft": 2,
+                "npimage": 1,
+                "npkpt": 2,
+                "npspinor": 1
+            }
+        }
+    ],
+    "info": {
+        "autoparal": 1,
+        "max_ncpus": 4,
+        "mband": 8,
+        "nkpt": 35,
+        "nspinor": 1,
+        "nsppol": 1,
+        "paral_kgb": 1
+    },
+    "optimal_conf": {
+        "efficiency": 0.961904762,
+        "mem_per_cpu": 0.0,
+        "mpi_ncpus": 4,
+        "omp_ncpus": 1,
+        "tot_ncpus": 4,
+        "vars": {
+            "bandpp": 1,
+            "npband": 1,
+            "npfft": 1,
+            "npimage": 1,
+            "npkpt": 4,
+            "npspinor": 1
+        }
+    }
+}

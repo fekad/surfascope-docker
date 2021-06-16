@@ -4,7 +4,7 @@ seconds: 30   # number of seconds to wait.
 
 
 # Limit on the number of jobs that can be present in the queue. (DEFAULT: 200)
-max_njobs_inqueue: 8
+max_njobs_inqueue: 4
 
 # Maximum number of cores that can be used by the scheduler.
-max_ncores_used: 128
+max_ncores_used: 16

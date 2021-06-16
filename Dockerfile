@@ -68,6 +68,7 @@ ENV PATH=/opt/abinit/bin:$PATH
 
 RUN conda install --quiet --yes \
     'abipy' \
+    'phonopy' \
     'periodic-table-plotter' 'atomicfile' \
  && pip install --no-cache-dir jupyter-jsmol \
  && pip install --no-cache-dir git+https://github.com/fekad/pymatgen-plotly.git \
